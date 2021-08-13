@@ -79,6 +79,7 @@ function Portfolio() {
                         active={selected === item.id}
                         setSelected={setSelected}
                         id={item.id}
+                        key={item.id}
                     />
 
                 ))}
@@ -92,7 +93,7 @@ function Portfolio() {
                         
                         </img>
                         {/* <h3>{d.title}</h3> */}
-                        <a href={d.url} target="_blank">{d.title}</a>
+                        <a href={d.url} target="_blank" rel="noopener noreferrer">{d.title}</a>
                     </div>
                 ))}
                 
