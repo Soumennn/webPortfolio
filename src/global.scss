@@ -1,0 +1,16 @@
+$main-color: rgb(27, 15, 100);
+
+$gradient-color : 
+     #EB3349;  /* fallback for old browsers */
+    //  -webkit-linear-gradient(to right, #F45C43, #EB3349);  /* Chrome 10-25, Safari 5.1-6 */
+    //  linear-gradient(to right, #F45C43, #EB3349); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+$width: 768px;
+
+@mixin mobile {
+     @media (max-width: #{$width}) {
+          @content
+
+     }
+}
