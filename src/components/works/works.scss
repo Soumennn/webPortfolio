@@ -33,7 +33,7 @@
         transition: all 1s ease-out;
 
         @include mobile {
-            height: 100vh;
+            height: 100%;
             flex-direction: column;
             justify-content: center;
         }

@@ -42,10 +42,12 @@
             }
 
             @include mobile {
-                border-radius: 60% 0% 0 0;
-                height: 300px;
-                width: 350px;
+                border-radius: 50%;
+                height: 250px;
+                width: 250px;
                 z-index: 1;
+                background-color: #fff;
+                background-image: linear-gradient(-245deg,#1a0b75,#0f6445ab 40%,#99a6b7 80%);
                 
             }
             
@@ -58,7 +60,9 @@
                 bottom:0;
 
                 @include mobile {
-                    height: 100%;
+                    height: 93%;
+                    margin-right: 8.9rem;
+                    opacity: 0.76;
                 }
 
                 
