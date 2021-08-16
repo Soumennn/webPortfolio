@@ -110,6 +110,10 @@
             h2{
                 font-size: 1.8rem;
                 color: rgb(4, 102, 94);
+                
+                @include mobile {
+                    font-size: 1.2rem;
+                    font-weight: 400;
             }
 
             h3{
