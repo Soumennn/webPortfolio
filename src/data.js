@@ -3,7 +3,7 @@ export const featuredPorfolio = [
         id: 1,
         title: "Twitter Clone",
         img: "https://cdn.vox-cdn.com/thumbor/eF80bjhGBGJ3SLdhWj2VjZzqcbc=/0x0:3840x2160/1400x933/filters:focal(1613x773:2227x1387):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/69711697/E8hpSmxXoAMW80g.0.jpeg",
-        url: "https://twitter-clone-soumen.herokuapp.com/login",
+        url: "https://twitter-soumen-clone.herokuapp.com/login",
     },
     {
         id: 2,
@@ -45,7 +45,7 @@ export const webPortfolio = [
         id: 1,
         title: "Twitter Clone",
         img: "https://cdn.vox-cdn.com/thumbor/eF80bjhGBGJ3SLdhWj2VjZzqcbc=/0x0:3840x2160/1400x933/filters:focal(1613x773:2227x1387):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/69711697/E8hpSmxXoAMW80g.0.jpeg",
-        url: "https://twitter-clone-soumen.herokuapp.com/login"
+        url: "https://twitter-soumen-clone.herokuapp.com/login"
     },
     {
         id: 2,
